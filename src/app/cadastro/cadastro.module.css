@@ -85,7 +85,6 @@
 }
 
 .subtitle {
-  color: var(--dark-bg);
   margin-bottom: 2rem;
   font-size: 1rem;
   opacity: 0.8;
@@ -98,7 +97,6 @@
 .inputGroup label {
   display: block;
   margin-bottom: 0.5rem;
-  color: var(--dark-bg);
   font-weight: 500;
 }
 
@@ -189,7 +187,6 @@
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  color: var(--dark-bg);
   text-decoration: none;
   margin-bottom: 1.5rem;
   font-size: 0.875rem;
@@ -205,7 +202,6 @@
 .loginLink {
   text-align: center;
   margin-top: 1.5rem;
-  color: var(--dark-bg);
 }
 
 .loginLink a {
