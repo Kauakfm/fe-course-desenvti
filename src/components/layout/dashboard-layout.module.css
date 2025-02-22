@@ -1,0 +1,21 @@
+.layout {
+  min-height: 100vh;
+  display: flex;
+}
+
+.content {
+  flex: 1;
+  margin-left: 240px;
+  transition: margin-left var(--transition-normal);
+}
+
+.main {
+  padding: calc(64px + var(--spacing-xl)) var(--spacing-xl) var(--spacing-xl);
+}
+
+@media (max-width: 768px) {
+  .content {
+    margin-left: 0;
+  }
+}
+
