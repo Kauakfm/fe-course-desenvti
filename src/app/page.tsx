@@ -110,6 +110,7 @@ export default function Home() {
             <Link href="#">Para Empresas</Link>
           </div>
 
+
           <div className={styles.containerButton}>
             <Link href="/cadastro" className={styles.loginButton}>
               CADASTRO
